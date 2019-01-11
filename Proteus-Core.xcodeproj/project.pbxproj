@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D708663021E8A6CE0000E477 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708662F21E8A6CE0000E477 /* Config.swift */; };
+		D708663221E8B2BA0000E477 /* Promises.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708663121E8B2BA0000E477 /* Promises.swift */; };
+		D708664721E8CC830000E477 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708664621E8CC830000E477 /* Strings.swift */; };
 		D79E820421E7F70E00DAC211 /* Proteus_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79E81FA21E7F70E00DAC211 /* Proteus_Core.framework */; };
 		D79E820921E7F70E00DAC211 /* Proteus_CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E820821E7F70E00DAC211 /* Proteus_CoreTests.swift */; };
 		D79E820B21E7F70E00DAC211 /* Proteus_Core.h in Headers */ = {isa = PBXBuildFile; fileRef = D79E81FD21E7F70E00DAC211 /* Proteus_Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D708662F21E8A6CE0000E477 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		D708663121E8B2BA0000E477 /* Promises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promises.swift; sourceTree = "<group>"; };
+		D708664621E8CC830000E477 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		D79E81FA21E7F70E00DAC211 /* Proteus_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Proteus_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79E81FD21E7F70E00DAC211 /* Proteus_Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Proteus_Core.h; sourceTree = "<group>"; };
 		D79E81FE21E7F70E00DAC211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 				D79E824B21E7F76A00DAC211 /* Result.swift */,
 				D79E81FD21E7F70E00DAC211 /* Proteus_Core.h */,
 				D79E81FE21E7F70E00DAC211 /* Info.plist */,
+				D708662F21E8A6CE0000E477 /* Config.swift */,
+				D708663121E8B2BA0000E477 /* Promises.swift */,
+				D708664621E8CC830000E477 /* Strings.swift */,
 			);
 			path = "Proteus-Core";
 			sourceTree = "<group>";
@@ -203,6 +212,9 @@
 			files = (
 				D79E824D21E7F76A00DAC211 /* Result.swift in Sources */,
 				D79E824C21E7F76A00DAC211 /* DegreesToRadians.swift in Sources */,
+				D708664721E8CC830000E477 /* Strings.swift in Sources */,
+				D708663221E8B2BA0000E477 /* Promises.swift in Sources */,
+				D708663021E8A6CE0000E477 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
