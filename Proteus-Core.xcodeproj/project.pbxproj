@@ -10,6 +10,7 @@
 		D708663021E8A6CE0000E477 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708662F21E8A6CE0000E477 /* Config.swift */; };
 		D708663221E8B2BA0000E477 /* Promises.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708663121E8B2BA0000E477 /* Promises.swift */; };
 		D708664721E8CC830000E477 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708664621E8CC830000E477 /* Strings.swift */; };
+		D7126B4521ECE152007B32D3 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7126B4421ECE152007B32D3 /* UserDefaults.swift */; };
 		D79E820421E7F70E00DAC211 /* Proteus_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79E81FA21E7F70E00DAC211 /* Proteus_Core.framework */; };
 		D79E820921E7F70E00DAC211 /* Proteus_CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E820821E7F70E00DAC211 /* Proteus_CoreTests.swift */; };
 		D79E820B21E7F70E00DAC211 /* Proteus_Core.h in Headers */ = {isa = PBXBuildFile; fileRef = D79E81FD21E7F70E00DAC211 /* Proteus_Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,6 +32,7 @@
 		D708662F21E8A6CE0000E477 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		D708663121E8B2BA0000E477 /* Promises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promises.swift; sourceTree = "<group>"; };
 		D708664621E8CC830000E477 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		D7126B4421ECE152007B32D3 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		D79E81FA21E7F70E00DAC211 /* Proteus_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Proteus_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79E81FD21E7F70E00DAC211 /* Proteus_Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Proteus_Core.h; sourceTree = "<group>"; };
 		D79E81FE21E7F70E00DAC211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +62,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7126B4321ECE130007B32D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D79E824A21E7F76A00DAC211 /* DegreesToRadians.swift */,
+				D7126B4421ECE152007B32D3 /* UserDefaults.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D79E81F021E7F70D00DAC211 = {
 			isa = PBXGroup;
 			children = (
@@ -81,7 +92,7 @@
 		D79E81FC21E7F70E00DAC211 /* Proteus-Core */ = {
 			isa = PBXGroup;
 			children = (
-				D79E824A21E7F76A00DAC211 /* DegreesToRadians.swift */,
+				D7126B4321ECE130007B32D3 /* Extensions */,
 				D79E824B21E7F76A00DAC211 /* Result.swift */,
 				D79E81FD21E7F70E00DAC211 /* Proteus_Core.h */,
 				D79E81FE21E7F70E00DAC211 /* Info.plist */,
@@ -212,6 +223,7 @@
 			files = (
 				D79E824D21E7F76A00DAC211 /* Result.swift in Sources */,
 				D79E824C21E7F76A00DAC211 /* DegreesToRadians.swift in Sources */,
+				D7126B4521ECE152007B32D3 /* UserDefaults.swift in Sources */,
 				D708664721E8CC830000E477 /* Strings.swift in Sources */,
 				D708663221E8B2BA0000E477 /* Promises.swift in Sources */,
 				D708663021E8A6CE0000E477 /* Config.swift in Sources */,
