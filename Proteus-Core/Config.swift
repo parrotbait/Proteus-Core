@@ -20,7 +20,7 @@ open class Config {
             self.plist = NSDictionary.init(contentsOfFile: path)
         
         #else
-       
+            self.plist = nil
         #endif
     }
 }
