@@ -16,6 +16,7 @@
 		D79E820B21E7F70E00DAC211 /* Proteus_Core.h in Headers */ = {isa = PBXBuildFile; fileRef = D79E81FD21E7F70E00DAC211 /* Proteus_Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D79E824C21E7F76A00DAC211 /* DegreesToRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E824A21E7F76A00DAC211 /* DegreesToRadians.swift */; };
 		D79E824D21E7F76A00DAC211 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E824B21E7F76A00DAC211 /* Result.swift */; };
+		D7B7139322C4266200312CF1 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7139222C4266200312CF1 /* Data+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		D79E820A21E7F70E00DAC211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D79E824A21E7F76A00DAC211 /* DegreesToRadians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DegreesToRadians.swift; sourceTree = "<group>"; };
 		D79E824B21E7F76A00DAC211 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		D7B7139222C4266200312CF1 /* Data+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		D7126B4321ECE130007B32D3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D7B7139222C4266200312CF1 /* Data+Extensions.swift */,
 				D79E824A21E7F76A00DAC211 /* DegreesToRadians.swift */,
 				D7126B4421ECE152007B32D3 /* UserDefaults.swift */,
 			);
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D79E824D21E7F76A00DAC211 /* Result.swift in Sources */,
+				D7B7139322C4266200312CF1 /* Data+Extensions.swift in Sources */,
 				D79E824C21E7F76A00DAC211 /* DegreesToRadians.swift in Sources */,
 				D7126B4521ECE152007B32D3 /* UserDefaults.swift in Sources */,
 				D708664721E8CC830000E477 /* Strings.swift in Sources */,
