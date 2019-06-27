@@ -8,7 +8,7 @@
 
 import Foundation
 
-internal extension Data {
+public extension Data {
     var toString : String { return NSString(data: self, encoding: String.Encoding.utf8.rawValue)! as String }
     
     init<T>(from value: T) {
